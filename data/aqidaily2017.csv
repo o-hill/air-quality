@@ -1,0 +1,366 @@
+Date,Overall AQI Value,Main Pollutant,Site Name (of Overall AQI),Site ID (of Overall AQI),Source (of Overall AQI),CO,Ozone,SO2,PM10,PM25,NO2
+1/1/17,53,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,7,40,.,15,53,8
+1/2/17,38,Ozone,Tahoe City-Fairway Drive,06-061-1004,AQS,7,38,.,9,34,10
+1/3/17,39,Ozone,Roseville-N Sunrise Ave,06-061-0006,AQS,7,39,.,9,36,11
+1/4/17,35,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,8,35,.,4,35,21
+1/5/17,39,Ozone,Tahoe City-Fairway Drive,06-061-1004,AQS,7,39,.,6,33,28
+1/6/17,56,PM2.5,Folsom-Natoma St.,06-067-0012,AQS,7,31,.,18,56,30
+1/7/17,43,PM2.5,Folsom-Natoma St.,06-067-0012,AQS,7,31,.,6,43,23
+1/8/17,32,Ozone,Davis-UCD Campus,06-113-0004,AQS,7,32,.,4,24,5
+1/9/17,37,Ozone,Auburn-Atwood,06-061-0003,AQS,7,37,.,7,24,17
+1/10/17,42,Ozone,Roseville-N Sunrise Ave,06-061-0006,AQS,7,42,.,5,32,8
+1/11/17,39,Ozone,Roseville-N Sunrise Ave,06-061-0006,AQS,3,39,.,6,22,19
+1/12/17,56,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,9,34,.,5,56,28
+1/13/17,62,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,11,31,.,12,62,26
+1/14/17,62,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,6,25,.,15,62,19
+1/15/17,90,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,8,24,.,21,90,23
+1/16/17,82,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,10,23,.,20,82,21
+1/17/17,78,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,8,26,.,20,78,18
+1/18/17,107,PM2.5,Davis-UCD Campus,06-113-0004,AQS,5,42,.,14,107,14
+1/19/17,40,Ozone,Tahoe City-Fairway Drive,06-061-1004,AQS,3,40,.,7,26,21
+1/20/17,41,PM2.5,Davis-UCD Campus,06-113-0004,AQS,3,40,.,7,41,13
+1/21/17,44,Ozone,Roseville-N Sunrise Ave,06-061-0006,AQS,3,44,.,8,29,9
+1/22/17,44,Ozone,Roseville-N Sunrise Ave,06-061-0006,AQS,3,44,.,5,34,15
+1/23/17,39,Ozone,Roseville-N Sunrise Ave,06-061-0006,AQS,3,39,.,6,25,23
+1/24/17,55,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,8,37,.,8,55,33
+1/25/17,68,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,13,35,3,16,68,28
+1/26/17,60,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,8,38,1,9,60,25
+1/27/17,65,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,8,32,0,20,65,29
+1/28/17,98,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,11,33,0,27,98,33
+1/29/17,105,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,14,38,.,25,105,31
+1/30/17,101,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,15,35,.,26,101,33
+1/31/17,93,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,14,31,.,29,93,31
+2/1/17,99,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,11,46,.,22,99,21
+2/2/17,53,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,7,42,.,11,53,21
+2/3/17,45,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,6,41,.,6,45,18
+2/4/17,52,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,6,37,.,6,52,18
+2/5/17,54,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,7,41,.,14,54,21
+2/6/17,48,Ozone,Placerville-Gold Nugget Way,06-017-0010,AQS,6,48,.,6,45,16
+2/7/17,44,Ozone,Placerville-Gold Nugget Way,06-017-0010,AQS,6,44,.,6,36,18
+2/8/17,44,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,7,27,.,6,44,14
+2/9/17,57,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,7,40,.,7,57,14
+2/10/17,43,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,7,43,.,6,43,24
+2/11/17,37,Ozone,Placerville-Gold Nugget Way,06-017-0010,AQS,7,37,.,8,30,16
+2/12/17,55,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,9,39,.,21,55,26
+2/13/17,63,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,9,33,.,27,63,28
+2/14/17,68,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,10,36,1,31,68,29
+2/15/17,82,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,11,45,3,27,82,24
+2/16/17,62,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,3,45,4,14,62,28
+2/17/17,46,Ozone,Placerville-Gold Nugget Way,06-017-0010,AQS,3,46,9,9,38,11
+2/18/17,43,Ozone,Tahoe City-Fairway Drive,06-061-1004,AQS,2,43,7,7,39,13
+2/19/17,43,Ozone,Tahoe City-Fairway Drive,06-061-1004,AQS,3,43,4,7,39,7
+2/20/17,44,Ozone,Placerville-Gold Nugget Way,06-017-0010,AQS,2,44,4,6,36,8
+2/21/17,44,Ozone,Placerville-Gold Nugget Way,06-017-0010,AQS,3,44,1,6,35,9
+2/22/17,42,Ozone,Tahoe City-Fairway Drive,06-061-1004,AQS,5,42,1,7,36,25
+2/23/17,58,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,7,42,1,10,58,34
+2/24/17,54,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,8,42,1,13,54,26
+2/25/17,51,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,5,45,3,15,51,33
+2/26/17,45,Ozone,Placerville-Gold Nugget Way,06-017-0010,AQS,5,45,.,13,42,24
+2/27/17,48,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,7,45,.,9,48,36
+2/28/17,55,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,7,44,.,27,55,27
+3/1/17,66,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,9,43,.,30,66,29
+3/2/17,62,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,9,47,.,26,62,40
+3/3/17,75,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,11,46,.,20,75,34
+3/4/17,49,Ozone,Tahoe City-Fairway Drive,06-061-1004,AQS,7,49,.,19,28,12
+3/5/17,47,Ozone,Placerville-Gold Nugget Way,06-017-0010,AQS,6,47,.,10,26,8
+3/6/17,48,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,6,44,.,8,48,22
+3/7/17,60,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,8,42,.,10,60,32
+3/8/17,67,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,8,40,.,29,67,31
+3/9/17,61,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,10,38,.,38,61,31
+3/10/17,58,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,9,32,4,38,58,29
+3/11/17,54,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,9,41,4,31,54,25
+3/12/17,42,Ozone,Placerville-Gold Nugget Way,06-017-0010,AQS,9,42,.,29,36,31
+3/13/17,50,Ozone,Placerville-Gold Nugget Way,06-017-0010,AQS,10,50,.,31,33,30
+3/14/17,67,Ozone,Folsom-Natoma St.,06-067-0012,AQS,13,67,.,29,57,43
+3/15/17,61,Ozone,Placerville-Gold Nugget Way,06-017-0010,AQS,10,61,.,19,37,32
+3/16/17,40,Ozone,Tahoe City-Fairway Drive,06-061-1004,AQS,8,40,.,18,30,18
+3/17/17,61,Ozone,Placerville-Gold Nugget Way,06-017-0010,AQS,11,61,.,40,43,36
+3/18/17,44,Ozone,Placerville-Gold Nugget Way,06-017-0010,AQS,11,44,.,19,41,27
+3/19/17,47,Ozone,Tahoe City-Fairway Drive,06-061-1004,AQS,9,47,.,23,41,14
+3/20/17,43,Ozone,Placerville-Gold Nugget Way,06-017-0010,AQS,8,43,.,13,34,16
+3/21/17,45,Ozone,Tahoe City-Fairway Drive,06-061-1004,AQS,8,45,.,9,36,16
+3/22/17,44,Ozone,Placerville-Gold Nugget Way,06-017-0010,AQS,8,44,.,5,26,11
+3/23/17,44,Ozone,Placerville-Gold Nugget Way,06-017-0010,AQS,5,44,1,7,33,21
+3/24/17,49,Ozone,Placerville-Gold Nugget Way,06-017-0010,AQS,3,49,1,10,47,22
+3/25/17,46,Ozone,Placerville-Gold Nugget Way,06-017-0010,AQS,5,46,1,15,45,30
+3/26/17,48,Ozone,Placerville-Gold Nugget Way,06-017-0010,AQS,3,48,3,9,29,8
+3/27/17,44,Ozone,Tahoe City-Fairway Drive,06-061-1004,AQS,5,44,1,18,25,24
+3/28/17,50,Ozone,Davis-UCD Campus,06-113-0004,AQS,3,50,1,23,21,24
+3/29/17,44,Ozone,Auburn-Atwood,06-061-0003,AQS,5,44,3,20,29,16
+3/30/17,48,Ozone,Tahoe City-Fairway Drive,06-061-1004,AQS,3,48,6,19,40,11
+3/31/17,44,Ozone,Tahoe City-Fairway Drive,06-061-1004,AQS,3,44,4,28,30,15
+4/1/17,48,Ozone,Cool,06-017-0020,AQS,5,48,3,19,37,21
+4/2/17,44,Ozone,Tahoe City-Fairway Drive,06-061-1004,AQS,5,44,4,18,39,27
+4/3/17,54,Ozone,Tahoe City-Fairway Drive,06-061-1004,AQS,5,54,4,21,32,33
+4/4/17,48,PM2.5,Davis-UCD Campus,06-113-0004,AQS,6,48,4,20,48,26
+4/5/17,58,Ozone,Tahoe City-Fairway Drive,06-061-1004,AQS,5,58,3,17,34,30
+4/6/17,58,Ozone,Tahoe City-Fairway Drive,06-061-1004,AQS,5,58,4,20,33,29
+4/7/17,49,Ozone,Cool,06-017-0020,AQS,3,49,.,8,34,10
+4/8/17,46,Ozone,Davis-UCD Campus,06-113-0004,AQS,5,46,3,7,18,14
+4/9/17,47,Ozone,Tahoe City-Fairway Drive,06-061-1004,AQS,6,47,1,16,24,12
+4/10/17,49,Ozone,Davis-UCD Campus,06-113-0004,AQS,5,49,1,19,22,13
+4/11/17,59,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,5,48,3,19,59,15
+4/12/17,47,Ozone,Davis-UCD Campus,06-113-0004,AQS,6,47,4,13,27,27
+4/13/17,46,Ozone,Tahoe City-Fairway Drive,06-061-1004,AQS,5,46,3,7,23,16
+4/14/17,49,Ozone,Tahoe City-Fairway Drive,06-061-1004,AQS,6,49,1,19,23,27
+4/15/17,58,Ozone,Tahoe City-Fairway Drive,06-061-1004,AQS,7,58,3,20,41,28
+4/16/17,48,Ozone,Tahoe City-Fairway Drive,06-061-1004,AQS,9,48,4,14,43,25
+4/17/17,47,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,5,38,3,10,47,20
+4/18/17,49,Ozone,Colfax-City Hall,06-061-0004,AQS,5,49,3,10,26,16
+4/19/17,64,Ozone,Cool,06-017-0020,AQS,5,64,1,17,35,19
+4/20/17,49,Ozone,Cool,06-017-0020,AQS,3,49,1,13,38,15
+4/21/17,50,Ozone,Davis-UCD Campus,06-113-0004,AQS,3,50,4,16,28,19
+4/22/17,49,Ozone,Tahoe City-Fairway Drive,06-061-1004,AQS,3,49,6,20,31,17
+4/23/17,51,Ozone,Tahoe City-Fairway Drive,06-061-1004,AQS,3,51,4,11,30,8
+4/24/17,42,Ozone,Tahoe City-Fairway Drive,06-061-1004,AQS,2,42,4,9,23,10
+4/25/17,47,Ozone,Davis-UCD Campus,06-113-0004,AQS,2,47,4,11,23,15
+4/26/17,32,Ozone,Tahoe City-Fairway Drive,06-061-1004,AQS,2,32,4,7,18,8
+4/27/17,64,Ozone,Cool,06-017-0020,AQS,2,64,6,10,30,17
+4/28/17,61,Ozone,Colfax-City Hall,06-061-0004,AQS,2,61,4,31,25,26
+4/29/17,51,Ozone,Colfax-City Hall,06-061-0004,AQS,5,51,4,14,25,29
+4/30/17,64,Ozone,Elk Grove-Bruceville,06-067-0011,AQS,5,64,6,14,43,21
+5/1/17,61,Ozone,Tahoe City-Fairway Drive,06-061-1004,AQS,5,61,.,20,29,18
+5/2/17,39,Ozone,Elk Grove-Bruceville,06-067-0011,AQS,3,39,.,19,21,19
+5/3/17,87,Ozone,Sacramento-Del Paso Manor,06-067-0006,AQS,5,87,.,17,36,24
+5/4/17,77,Ozone,Colfax-City Hall,06-061-0004,AQS,6,77,4,16,36,16
+5/5/17,36,Ozone,Tahoe City-Fairway Drive,06-061-1004,AQS,3,36,4,19,28,11
+5/6/17,44,Ozone,Woodland-Gibson Road,06-113-1003,AQS,3,44,4,17,39,11
+5/7/17,44,Ozone,Woodland-Gibson Road,06-113-1003,AQS,3,44,4,30,42,9
+5/8/17,58,Ozone,Sloughhouse,06-067-5003,AQS,3,58,4,29,51,16
+5/9/17,101,Ozone,Placerville-Gold Nugget Way,06-017-0010,AQS,5,101,6,31,49,24
+5/10/17,51,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,3,51,4,26,51,8
+5/11/17,43,Ozone,Tahoe City-Fairway Drive,06-061-1004,AQS,3,43,1,19,30,14
+5/12/17,44,Ozone,Placerville-Gold Nugget Way,06-017-0010,AQS,3,44,1,19,22,17
+5/13/17,46,Ozone,Cool,06-017-0020,AQS,3,46,3,18,19,13
+5/14/17,46,Ozone,Cool,06-017-0020,AQS,3,46,4,12,24,10
+5/15/17,49,Ozone,Cool,06-017-0020,AQS,3,49,4,23,36,20
+5/16/17,42,Ozone,Cool,06-017-0020,AQS,2,42,3,17,29,10
+5/17/17,42,Ozone,Cool,06-017-0020,AQS,5,42,1,17,20,26
+5/18/17,44,Ozone,Tahoe City-Fairway Drive,06-061-1004,AQS,5,44,3,22,28,27
+5/19/17,77,Ozone,Placerville-Gold Nugget Way,06-017-0010,AQS,6,77,3,22,37,28
+5/20/17,67,Ozone,Placerville-Gold Nugget Way,06-017-0010,AQS,5,67,4,21,41,25
+5/21/17,71,Ozone,Cool,06-017-0020,AQS,6,71,.,22,41,25
+5/22/17,112,Ozone,Placerville-Gold Nugget Way,06-017-0010,AQS,6,112,.,28,51,25
+5/23/17,129,Ozone,North Highlands-Blackfoot,06-067-0002,AQS,6,129,.,24,52,25
+5/24/17,93,Ozone,Cool,06-017-0020,AQS,5,93,.,21,38,10
+5/25/17,54,Ozone,Tahoe City-Fairway Drive,06-061-1004,AQS,3,54,.,16,30,10
+5/26/17,51,Ozone,Tahoe City-Fairway Drive,06-061-1004,AQS,3,51,.,18,36,17
+5/27/17,50,Ozone,Lincoln-1st Street,06-061-2002,AQS,3,50,.,36,38,15
+5/28/17,71,Ozone,Placerville-Gold Nugget Way,06-017-0010,AQS,5,71,.,17,42,9
+5/29/17,74,Ozone,Cool,06-017-0020,AQS,5,74,6,17,41,10
+5/30/17,46,Ozone,Colfax-City Hall,06-061-0004,AQS,5,46,6,16,35,9
+5/31/17,43,Ozone,Placerville-Gold Nugget Way,06-017-0010,AQS,5,43,4,13,30,11
+6/1/17,54,Ozone,Placerville-Gold Nugget Way,06-017-0010,AQS,5,54,4,9,28,12
+6/2/17,74,Ozone,Placerville-Gold Nugget Way,06-017-0010,AQS,5,74,1,14,32,17
+6/3/17,90,Ozone,Placerville-Gold Nugget Way,06-017-0010,AQS,5,90,4,16,40,11
+6/4/17,90,Ozone,Placerville-Gold Nugget Way,06-017-0010,AQS,5,90,4,19,44,8
+6/5/17,101,Ozone,Cool,06-017-0020,AQS,5,101,3,24,53,24
+6/6/17,122,Ozone,Cool,06-017-0020,AQS,5,122,4,24,59,14
+6/7/17,87,Ozone,Echo Summit,06-017-0012,AQS,5,87,4,18,45,9
+6/8/17,58,Ozone,Echo Summit,06-017-0012,AQS,3,58,1,9,28,19
+6/9/17,47,Ozone,Echo Summit,06-017-0012,AQS,3,47,3,9,28,11
+6/10/17,47,Ozone,Echo Summit,06-017-0012,AQS,3,47,3,12,24,8
+6/11/17,45,Ozone,Echo Summit,06-017-0012,AQS,3,45,3,10,19,14
+6/12/17,38,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,2,38,1,15,38,12
+6/13/17,46,Ozone,Placerville-Gold Nugget Way,06-017-0010,AQS,3,46,3,13,37,20
+6/14/17,58,Ozone,Placerville-Gold Nugget Way,06-017-0010,AQS,3,58,3,16,38,18
+6/15/17,64,Ozone,Placerville-Gold Nugget Way,06-017-0010,AQS,5,64,3,14,33,16
+6/16/17,43,Ozone,Placerville-Gold Nugget Way,06-017-0010,AQS,8,43,4,13,24,25
+6/17/17,40,Ozone,Placerville-Gold Nugget Way,06-017-0010,AQS,8,40,4,13,20,18
+6/18/17,67,Ozone,Elk Grove-Bruceville,06-067-0011,AQS,3,67,7,17,31,28
+6/19/17,122,Ozone,Cool,06-017-0020,AQS,5,122,9,25,48,9
+6/20/17,164,Ozone,North Highlands-Blackfoot,06-067-0002,AQS,3,164,9,29,62,10
+6/21/17,112,Ozone,Cool,06-017-0020,AQS,3,112,9,28,58,16
+6/22/17,108,Ozone,Folsom-Natoma St.,06-067-0012,AQS,5,108,10,31,52,22
+6/23/17,129,Ozone,Auburn-Atwood,06-061-0003,AQS,3,129,9,29,53,7
+6/24/17,126,Ozone,Auburn-Atwood,06-061-0003,AQS,3,126,9,26,36,4
+6/25/17,67,Ozone,Colfax-City Hall,06-061-0004,AQS,3,67,9,20,32,7
+6/26/17,50,Ozone,Placerville-Gold Nugget Way,06-017-0010,AQS,2,50,7,19,28,9
+6/27/17,61,Ozone,Placerville-Gold Nugget Way,06-017-0010,AQS,2,61,9,32,42,10
+6/28/17,74,Ozone,Auburn-Atwood,06-061-0003,AQS,3,74,10,23,50,11
+6/29/17,87,Ozone,Folsom-Natoma St.,06-067-0012,AQS,3,87,7,28,56,14
+6/30/17,101,Ozone,Auburn-Atwood,06-061-0003,AQS,3,101,4,24,57,13
+7/1/17,90,Ozone,Cool,06-017-0020,AQS,5,90,6,23,53,11
+7/2/17,90,Ozone,Cool,06-017-0020,AQS,5,90,4,20,54,8
+7/3/17,101,Ozone,Cool,06-017-0020,AQS,3,101,3,22,66,12
+7/4/17,112,Ozone,Cool,06-017-0020,AQS,5,112,7,32,104,17
+7/5/17,112,Ozone,Placerville-Gold Nugget Way,06-017-0010,AQS,3,112,3,17,47,9
+7/6/17,87,Ozone,Sloughhouse,06-067-5003,AQS,2,87,4,28,48,12
+7/7/17,58,Ozone,Elk Grove-Bruceville,06-067-0011,AQS,2,58,3,21,37,31
+7/8/17,101,Ozone,Folsom-Natoma St.,06-067-0012,AQS,3,101,6,19,55,20
+7/9/17,93,Ozone,Cool,06-017-0020,AQS,2,93,4,19,41,7
+7/10/17,93,Ozone,Cool,06-017-0020,AQS,3,93,6,28,47,8
+7/11/17,80,Ozone,Cool,06-017-0020,AQS,2,80,4,29,58,8
+7/12/17,87,Ozone,Auburn-Atwood,06-061-0003,AQS,3,87,4,27,52,8
+7/13/17,77,Ozone,Cool,06-017-0020,AQS,3,77,4,22,53,8
+7/14/17,126,Ozone,Auburn-Atwood,06-061-0003,AQS,3,126,4,23,46,19
+7/15/17,100,Ozone,Cool,06-017-0020,AQS,5,100,4,25,54,35
+7/16/17,61,Ozone,Cool,06-017-0020,AQS,6,61,6,21,52,14
+7/17/17,80,Ozone,Auburn-Atwood,06-061-0003,AQS,2,80,7,31,61,10
+7/18/17,90,PM2.5,Bliss SP,06-017-9000,AQS,2,84,6,28,90,9
+7/19/17,140,Ozone,Auburn-Atwood,06-061-0003,AQS,2,140,4,80,55,12
+7/20/17,105,Ozone,Echo Summit,06-017-0012,AQS,3,105,4,58,77,8
+7/21/17,97,Ozone,Placerville-Gold Nugget Way,06-017-0010,AQS,3,97,3,25,52,8
+7/22/17,100,Ozone,Placerville-Gold Nugget Way,06-017-0010,AQS,5,100,4,25,48,20
+7/23/17,105,Ozone,Placerville-Gold Nugget Way,06-017-0010,AQS,5,105,4,20,45,8
+7/24/17,119,Ozone,Cool,06-017-0020,AQS,3,119,3,22,40,8
+7/25/17,100,Ozone,Auburn-Atwood,06-061-0003,AQS,2,100,4,36,43,8
+7/26/17,100,Ozone,Placerville-Gold Nugget Way,06-017-0010,AQS,2,100,3,20,36,8
+7/27/17,90,Ozone,Folsom-Natoma St.,06-067-0012,AQS,3,90,4,22,38,16
+7/28/17,115,Ozone,Auburn-Atwood,06-061-0003,AQS,3,115,4,30,50,9
+7/29/17,93,Ozone,Auburn-Atwood,06-061-0003,AQS,3,93,4,31,50,13
+7/30/17,90,Ozone,Folsom-Natoma St.,06-067-0012,AQS,3,90,3,21,49,7
+7/31/17,115,Ozone,Cool,06-017-0020,AQS,3,115,4,28,40,9
+8/1/17,151,Ozone,Roseville-N Sunrise Ave,06-061-0006,AQS,3,151,6,27,54,10
+8/2/17,126,Ozone,Colfax-City Hall,06-061-0004,AQS,.,126,6,31,63,21
+8/3/17,126,Ozone,Colfax-City Hall,06-061-0004,AQS,3,126,4,31,53,25
+8/4/17,108,Ozone,Auburn-Atwood,06-061-0003,AQS,3,108,1,28,56,15
+8/5/17,64,Ozone,Lincoln-1st Street,06-061-2002,AQS,3,64,3,19,49,5
+8/6/17,56,PM2.5,Sloughhouse,06-067-5003,AQS,3,49,3,18,56,5
+8/7/17,101,Ozone,Auburn-Atwood,06-061-0003,AQS,3,101,3,27,67,6
+8/8/17,112,Ozone,Auburn-Atwood,06-061-0003,AQS,3,112,3,20,56,11
+8/9/17,93,Ozone,Auburn-Atwood,06-061-0003,AQS,3,93,6,24,58,6
+8/10/17,112,Ozone,Auburn-Atwood,06-061-0003,AQS,3,112,3,28,59,8
+8/11/17,115,Ozone,Folsom-Natoma St.,06-067-0012,AQS,5,115,3,53,61,9
+8/12/17,101,Ozone,Auburn-Atwood,06-061-0003,AQS,5,101,4,31,67,8
+8/13/17,50,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,3,50,4,24,50,5
+8/14/17,51,PM2.5,Sacramento-1309 T Street,06-067-0010,AQS,2,34,4,29,51,5
+8/15/17,61,Ozone,Colfax-City Hall,06-061-0004,AQS,3,61,4,35,59,18
+8/16/17,87,Ozone,Colfax-City Hall,06-061-0004,AQS,3,87,3,30,65,6
+8/17/17,126,Ozone,Cool,06-017-0020,AQS,3,126,1,32,62,9
+8/18/17,143,Ozone,Auburn-Atwood,06-061-0003,AQS,5,143,3,30,57,11
+8/19/17,112,Ozone,Colfax-City Hall,06-061-0004,AQS,5,112,4,24,63,5
+8/20/17,93,Ozone,Colfax-City Hall,06-061-0004,AQS,5,93,3,28,74,5
+8/21/17,61,Ozone,Colfax-City Hall,06-061-0004,AQS,3,61,1,24,58,7
+8/22/17,112,Ozone,Folsom-Natoma St.,06-067-0012,AQS,5,112,3,27,77,11
+8/23/17,101,Ozone,Auburn-Atwood,06-061-0003,AQS,6,101,4,33,71,17
+8/24/17,90,Ozone,Auburn-Atwood,06-061-0003,AQS,5,90,4,30,74,8
+8/25/17,119,Ozone,Folsom-Natoma St.,06-067-0012,AQS,6,119,4,18,82,25
+8/26/17,90,Ozone,Elk Grove-Bruceville,06-067-0011,AQS,7,90,3,30,60,32
+8/27/17,67,Ozone,Folsom-Natoma St.,06-067-0012,AQS,8,67,4,13,54,24
+8/28/17,108,Ozone,Folsom-Natoma St.,06-067-0012,AQS,6,108,4,15,55,34
+8/29/17,136,Ozone,Auburn-Atwood,06-061-0003,AQS,5,136,6,32,59,14
+8/30/17,115,Ozone,Auburn-Atwood,06-061-0003,AQS,3,115,4,18,49,10
+8/31/17,112,Ozone,Elk Grove-Bruceville,06-067-0011,AQS,6,112,3,29,90,35
+9/1/17,129,PM2.5,Sacramento-Bercut Drive,06-067-0015,AQS,7,126,4,52,129,44
+9/2/17,150,Ozone,Elk Grove-Bruceville,06-067-0011,AQS,8,150,3,44,111,50
+9/3/17,147,Ozone,Folsom-Natoma St.,06-067-0012,AQS,8,147,3,34,100,31
+9/4/17,123,PM2.5,Davis-UCD Campus,06-113-0004,AQS,6,122,4,56,123,14
+9/5/17,66,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,5,46,3,22,66,16
+9/6/17,84,Ozone,Auburn-Atwood,06-061-0003,AQS,5,84,3,24,60,14
+9/7/17,59,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,3,51,3,27,59,9
+9/8/17,100,Ozone,Auburn-Atwood,06-061-0003,AQS,5,100,4,24,59,12
+9/9/17,77,Ozone,Auburn-Atwood,06-061-0003,AQS,6,77,3,24,58,24
+9/10/17,90,Ozone,Auburn-Atwood,06-061-0003,AQS,6,90,4,29,66,34
+9/11/17,93,Ozone,Auburn-Atwood,06-061-0003,AQS,6,93,4,35,64,22
+9/12/17,93,Ozone,Lincoln-1st Street,06-061-2002,AQS,5,93,4,34,60,15
+9/13/17,49,Ozone,Colfax-City Hall,06-061-0004,AQS,3,49,.,19,40,7
+9/14/17,49,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,3,44,.,24,49,8
+9/15/17,55,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,5,50,.,33,55,30
+9/16/17,75,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,5,74,.,29,75,14
+9/17/17,87,Ozone,Auburn-Atwood,06-061-0003,AQS,6,87,.,23,80,8
+9/18/17,41,Ozone,Placerville-Gold Nugget Way,06-017-0010,AQS,3,41,.,9,40,13
+9/19/17,48,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,3,43,.,21,48,25
+9/20/17,49,PM2.5,Sloughhouse,06-067-5003,AQS,5,45,.,21,49,15
+9/21/17,41,Ozone,Echo Summit,06-017-0012,AQS,3,41,.,19,27,16
+9/22/17,49,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,3,40,.,26,49,24
+9/23/17,39,Ozone,Echo Summit,06-017-0012,AQS,3,39,.,27,30,22
+9/24/17,43,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,5,42,.,18,43,29
+9/25/17,46,Ozone,Placerville-Gold Nugget Way,06-017-0010,AQS,6,46,.,30,44,33
+9/26/17,44,Ozone,Placerville-Gold Nugget Way,06-017-0010,AQS,6,44,.,36,38,27
+9/27/17,93,Ozone,Elk Grove-Bruceville,06-067-0011,AQS,7,93,.,36,45,44
+9/28/17,100,Ozone,Auburn-Atwood,06-061-0003,AQS,7,100,.,43,53,34
+9/29/17,67,Ozone,Placerville-Gold Nugget Way,06-017-0010,AQS,5,67,.,22,30,15
+9/30/17,47,Ozone,Auburn-Atwood,06-061-0003,AQS,6,47,.,28,35,29
+10/1/17,66,PM10,Sacramento-1309 T Street,06-067-0010,AQS,6,46,.,66,53,29
+10/2/17,55,PM2.5,Davis-UCD Campus,06-113-0004,AQS,5,42,.,47,55,33
+10/3/17,40,Ozone,Placerville-Gold Nugget Way,06-017-0010,AQS,6,40,.,33,29,29
+10/4/17,61,PM10,Woodland-Gibson Road,06-113-1003,AQS,.,43,.,61,45,35
+10/5/17,52,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,8,45,.,46,52,35
+10/6/17,80,Ozone,Cool,06-017-0020,AQS,8,80,.,49,52,44
+10/7/17,90,Ozone,Placerville-Gold Nugget Way,06-017-0010,AQS,7,90,.,36,56,32
+10/8/17,98,PM10,Sacramento-1309 T Street,06-067-0010,AQS,7,44,.,98,80,17
+10/9/17,67,Ozone,Auburn-Atwood,06-061-0003,AQS,5,67,.,59,66,36
+10/10/17,153,PM2.5,Davis-UCD Campus,06-113-0004,AQS,7,61,.,87,153,38
+10/11/17,113,PM2.5,Davis-UCD Campus,06-113-0004,AQS,7,54,.,63,113,19
+10/12/17,63,PM2.5,Auburn-Atwood,06-061-0003,AQS,6,48,.,44,63,34
+10/13/17,63,PM2.5,Lake Tahoe Community College,06-017-9001,AQS,8,54,.,43,63,34
+10/14/17,64,PM10,Sacramento-1309 T Street,06-067-0010,AQS,8,47,.,64,50,39
+10/15/17,117,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,10,71,.,49,117,42
+10/16/17,83,PM2.5,Davis-UCD Campus,06-113-0004,AQS,10,74,.,59,83,45
+10/17/17,80,Ozone,Placerville-Gold Nugget Way,06-017-0010,AQS,8,80,.,62,77,55
+10/18/17,119,Ozone,Placerville-Gold Nugget Way,06-017-0010,AQS,8,119,.,53,71,38
+10/19/17,51,Ozone,Placerville-Gold Nugget Way,06-017-0010,AQS,3,51,.,18,35,8
+10/20/17,42,Ozone,Echo Summit,06-017-0012,AQS,8,42,.,19,38,31
+10/21/17,46,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,9,38,.,19,46,31
+10/22/17,42,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,9,41,.,22,42,25
+10/23/17,54,Ozone,Placerville-Gold Nugget Way,06-017-0010,AQS,8,54,.,27,33,43
+10/24/17,84,Ozone,Placerville-Gold Nugget Way,06-017-0010,AQS,8,84,.,38,52,54
+10/25/17,74,Ozone,Placerville-Gold Nugget Way,06-017-0010,AQS,8,74,.,41,58,58
+10/26/17,93,Ozone,Placerville-Gold Nugget Way,06-017-0010,AQS,10,93,.,44,60,53
+10/27/17,84,Ozone,Auburn-Atwood,06-061-0003,AQS,10,84,.,51,68,54
+10/28/17,97,Ozone,Folsom-Natoma St.,06-067-0012,AQS,11,97,.,44,59,46
+10/29/17,64,Ozone,Placerville-Gold Nugget Way,06-017-0010,AQS,9,64,.,28,49,18
+10/30/17,43,Ozone,Colfax-City Hall,06-061-0004,AQS,5,43,.,22,33,12
+10/31/17,41,Ozone,Placerville-Gold Nugget Way,06-017-0010,AQS,5,41,0,33,38,20
+11/1/17,54,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,5,43,0,30,54,28
+11/2/17,39,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,3,39,0,26,39,20
+11/3/17,63,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,5,35,0,37,63,20
+11/4/17,33,Ozone,Tahoe City-Fairway Drive,06-061-1004,AQS,3,33,0,12,30,11
+11/5/17,37,Ozone,Tahoe City-Fairway Drive,06-061-1004,AQS,5,37,0,13,27,27
+11/6/17,34,Ozone,Folsom-Natoma St.,06-067-0012,AQS,6,34,0,16,28,32
+11/7/17,58,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,9,38,0,22,58,36
+11/8/17,64,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,8,33,0,50,64,28
+11/9/17,35,Ozone,Tahoe City-Fairway Drive,06-061-1004,AQS,5,35,0,11,23,19
+11/10/17,33,Ozone,Tahoe City-Fairway Drive,06-061-1004,AQS,6,33,0,14,23,23
+11/11/17,47,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,8,34,0,16,47,26
+11/12/17,57,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,9,40,0,15,57,26
+11/13/17,42,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,8,35,0,14,42,18
+11/14/17,33,Ozone,Tahoe City-Fairway Drive,06-061-1004,AQS,7,33,0,13,28,33
+11/15/17,46,PM2.5,Folsom-Natoma St.,06-067-0012,AQS,7,30,0,17,46,29
+11/16/17,37,Ozone,Colfax-City Hall,06-061-0004,AQS,5,37,0,4,18,17
+11/17/17,36,Ozone,Tahoe City-Fairway Drive,06-061-1004,AQS,5,36,.,8,18,28
+11/18/17,58,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,10,33,0,15,58,26
+11/19/17,100,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,17,34,0,24,100,27
+11/20/17,65,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,7,29,0,31,65,24
+11/21/17,59,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,8,22,.,17,59,21
+11/22/17,58,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,10,18,0,20,58,15
+11/23/17,77,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,8,26,0,20,77,13
+11/24/17,62,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,10,32,0,16,62,16
+11/25/17,82,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,9,31,0,29,82,25
+11/26/17,98,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,9,36,0,33,98,19
+11/27/17,37,Ozone,Folsom-Natoma St.,06-067-0012,AQS,5,37,0,7,19,25
+11/28/17,46,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,7,30,0,13,46,27
+11/29/17,62,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,10,28,1,21,62,24
+11/30/17,95,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,15,29,1,31,95,28
+12/1/17,91,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,14,35,1,32,91,32
+12/2/17,119,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,15,40,1,42,119,21
+12/3/17,51,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,6,36,.,11,51,16
+12/4/17,36,Ozone,Tahoe City-Fairway Drive,06-061-1004,AQS,3,36,.,12,21,23
+12/5/17,48,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,6,35,.,19,48,29
+12/6/17,94,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,11,36,.,42,94,39
+12/7/17,100,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,14,35,.,48,100,38
+12/8/17,94,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,14,31,.,41,94,39
+12/9/17,125,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,16,31,.,47,125,37
+12/10/17,101,PM2.5,Sacramento-1309 T Street,06-067-0010,AQS,17,31,.,41,101,34
+12/11/17,93,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,16,32,.,42,93,33
+12/12/17,81,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,14,28,.,36,81,31
+12/13/17,76,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,11,29,.,36,76,33
+12/14/17,105,PM2.5,Sacramento-1309 T Street,06-067-0010,AQS,16,31,1,53,105,40
+12/15/17,115,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,18,33,3,52,115,32
+12/16/17,41,Ozone,Colfax-City Hall,06-061-0004,AQS,7,41,0,34,39,22
+12/17/17,60,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,8,39,0,37,60,31
+12/18/17,85,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,13,35,1,59,85,42
+12/19/17,90,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,17,36,1,44,90,32
+12/20/17,40,Ozone,Tahoe City-Fairway Drive,06-061-1004,AQS,6,40,0,12,36,32
+12/21/17,38,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,6,38,0,13,38,28
+12/22/17,85,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,6,35,0,32,85,26
+12/23/17,116,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,10,40,1,32,116,28
+12/24/17,105,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,14,41,1,34,105,25
+12/25/17,107,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,10,32,0,31,107,25
+12/26/17,99,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,13,28,1,37,99,35
+12/27/17,106,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,16,35,3,31,106,30
+12/28/17,92,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,18,36,1,31,92,32
+12/29/17,104,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,17,38,4,30,104,30
+12/30/17,107,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,20,37,3,26,107,27
+12/31/17,106,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,17,37,1,32,106,24
