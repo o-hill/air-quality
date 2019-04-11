@@ -93,13 +93,15 @@ def poly_regression():
 
     X, Xtest, y, ytest = build_network_data()
 
-    poly = PolynomialFeatures(degree=2)
+    poly = PolynomialFeatures(degree=1)
     X_poly = poly.fit_transform(X)
     Xtest_poly = poly.fit_transform(Xtest)
 
     regress = LinearRegression().fit(X_poly, y)
     y_predicted = np.clip(regress.predict(Xtest_poly), 0, None)
 
+    print('Coefficients:')
+    print(regress.coef_)
     results(ytest, y_predicted)
 
 

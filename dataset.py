@@ -237,8 +237,62 @@ def build_network_data():
     ytest = np.zeros(df2017.shape[0] - 1, dtype=int)
     ytest[:] = np.squeeze(df2017[['CO AQI']].values[1:])
 
+    plot_correlation(df2017)
 
     return X, Xtest, y, ytest
+
+
+def plot_correlation(df: pd.DataFrame) -> None:
+    '''Do some plotting.'''
+
+    from matplotlib import pyplot as plt
+    import seaborn as sns
+    import matplotlib as mpl
+    mpl.style.use('seaborn')
+    from mpl_toolkits.mplot3d import Axes3D
+
+    from sklearn.linear_model import LinearRegression
+    from sklearn.decomposition import PCA
+
+    X = np.vstack((df['CO AQI'].values[:-1], df['Wind Speed'].values[:-1])).T
+    y = np.array(df['CO AQI'].values[1:])
+
+    # pca = PCA(n_components=1)
+    # X_pca = pca.fit_transform(X)
+
+    # regress = LinearRegression().fit(X_pca, y)
+    # y_predicted = regress.predict(X_pca)
+
+    # plt.scatter(X_pca, y)
+    # plt.plot(X_pca, y_predicted, 'r')
+
+    # plt.xlabel('Reduced CO AQI and Wind Speed')
+    # plt.ylabel('Carbon Monoxide AQI')
+
+    # plt.title('PCA on CO AQI Predictions')
+    # plt.show()
+
+    # regress = LinearRegression().fit(X, y)
+    # y_predicted = regress.predict(X)
+
+    fig = plt.figure()
+    ax = fig.add_subplot(111, projection='3d')
+
+    ax.scatter(
+        df['CO AQI'].values[:-1],
+        df['Wind Speed'].values[:-1],
+        df['CO AQI'].values[1:]
+    )
+
+    # ax.plot(X[:, 0], X[:, 1], y_predicted, '.', color='r')
+
+    ax.set_xlabel('Old AQI')
+    ax.set_ylabel('Wind Speed')
+    ax.set_zlabel('New AQI')
+
+    plt.show()
+
+
 
 
 
@@ -253,6 +307,8 @@ if __name__ == '__main__':
     # df3 = pd.read_csv('data/aqidaily2018.csv')
 
     # df = build_df(df1, df2, df3)
+
+    arrays = build_network_data()
 
 
 

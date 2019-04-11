@@ -212,7 +212,7 @@ Date,Overall AQI Value,Main Pollutant,Site Name (of Overall AQI),Site ID (of Ove
 7/30/17,90,Ozone,Folsom-Natoma St.,06-067-0012,AQS,3,90,3,21,49,7
 7/31/17,115,Ozone,Cool,06-017-0020,AQS,3,115,4,28,40,9
 8/1/17,151,Ozone,Roseville-N Sunrise Ave,06-061-0006,AQS,3,151,6,27,54,10
-8/2/17,126,Ozone,Colfax-City Hall,06-061-0004,AQS,.,126,6,31,63,21
+8/2/17,126,Ozone,Colfax-City Hall,06-061-0004,AQS,3,126,6,31,63,21
 8/3/17,126,Ozone,Colfax-City Hall,06-061-0004,AQS,3,126,4,31,53,25
 8/4/17,108,Ozone,Auburn-Atwood,06-061-0003,AQS,3,108,1,28,56,15
 8/5/17,64,Ozone,Lincoln-1st Street,06-061-2002,AQS,3,64,3,19,49,5
@@ -275,7 +275,7 @@ Date,Overall AQI Value,Main Pollutant,Site Name (of Overall AQI),Site ID (of Ove
 10/1/17,66,PM10,Sacramento-1309 T Street,06-067-0010,AQS,6,46,.,66,53,29
 10/2/17,55,PM2.5,Davis-UCD Campus,06-113-0004,AQS,5,42,.,47,55,33
 10/3/17,40,Ozone,Placerville-Gold Nugget Way,06-017-0010,AQS,6,40,.,33,29,29
-10/4/17,61,PM10,Woodland-Gibson Road,06-113-1003,AQS,.,43,.,61,45,35
+10/4/17,61,PM10,Woodland-Gibson Road,06-113-1003,AQS,7,43,.,61,45,35
 10/5/17,52,PM2.5,Sacramento-Del Paso Manor,06-067-0006,AQS,8,45,.,46,52,35
 10/6/17,80,Ozone,Cool,06-017-0020,AQS,8,80,.,49,52,44
 10/7/17,90,Ozone,Placerville-Gold Nugget Way,06-017-0010,AQS,7,90,.,36,56,32
