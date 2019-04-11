@@ -234,8 +234,8 @@ def build_network_data():
     Xtest[:, :-1] = df2017[['Day Number', 'CO', 'CO AQI', 'Wind Speed', 'Wind Direction', 'Temperature']].values[:-1, :]
     Xtest[:, -1] = np.squeeze(df2017[['Day Number']].values[1:])
 
-    ytest = np.zeros(df2017.shape[0], dtype=int)
-    y = np.squeeze(df2017[['CO AQI']].values[1:])
+    ytest = np.zeros(df2017.shape[0] - 1, dtype=int)
+    ytest[:] = np.squeeze(df2017[['CO AQI']].values[1:])
 
 
     return X, Xtest, y, ytest
