@@ -75,12 +75,12 @@ def results(y_test: np.ndarray, y_predicted: np.ndarray) -> None:
 
     print(f'Average distance between predictions and real values: {np.mean(np.abs(y_test - y_predicted))}')
 
-    plt.plot(range(y_test.shape[0]), y_test, label='Real AQI')
-    plt.plot(range(y_predicted.shape[0]), y_predicted, label='Predicted AQI')
+    plt.plot(range(y_test.shape[0]), y_test, label='Real Concentration')
+    plt.plot(range(y_predicted.shape[0]), y_predicted, label='Predicted Concentration')
 
     plt.xlabel('Index of Day in Year (2017)')
-    plt.ylabel('Carbon Monoxide (CO) AQI')
-    plt.title('Polynomial (degree 2) Regression Results for CO AQI in 2017')
+    plt.ylabel('Carbon Monoxide (CO) Concentration')
+    plt.title('Polynomial (degree 2) Regression Results for CO Concentration in 2017')
     plt.legend(loc='best')
     plt.show()
 
@@ -102,6 +102,7 @@ def poly_regression():
 
     print('Coefficients:')
     print(regress.coef_)
+
     results(ytest, y_predicted)
 
 
@@ -116,9 +117,14 @@ if __name__ == '__main__':
 
 '''Notes
 
-    Average distance for linear regression: 1.5479
-    Average distance for degree 2 polynomial regression: 1.972
-    Average distance for neural network: 3.8914
+    AQI
+        Average distance for linear regression: 1.5479
+        Average distance for degree 2 polynomial regression: 1.972
+        Average distance for neural network: 3.8914
+
+    Concentration
+        Av. dis. for linear regression   0.065
+        Av. dis. for poly regression     0.085
 
 '''
 

@@ -218,7 +218,7 @@ def build_network_data():
 
     n_rows = df2015.shape[0] + df2016.shape[0] + df2018.shape[0] - 3
     X = np.zeros((n_rows, 7), dtype=float)
-    y = np.zeros(n_rows, dtype=int)
+    y = np.zeros(n_rows, dtype=float)
 
     row = 0
 
@@ -226,7 +226,7 @@ def build_network_data():
         print(row, df.shape[0] - 1, row + df.shape[0] - 1)
         X[row : row + df.shape[0] - 1, :-1] = df[['Day Number', 'CO', 'CO AQI', 'Wind Speed', 'Wind Direction', 'Temperature']].values[:-1, :]
         X[row : row + df.shape[0] - 1, -1] = np.squeeze(df[['Day Number']].values[1:])
-        y[row : row + df.shape[0] - 1] = np.squeeze(df[['CO AQI']].values[1:])
+        y[row : row + df.shape[0] - 1] = np.squeeze(df[['CO']].values[1:])
 
         row += df.shape[0] - 1
 
@@ -234,8 +234,8 @@ def build_network_data():
     Xtest[:, :-1] = df2017[['Day Number', 'CO', 'CO AQI', 'Wind Speed', 'Wind Direction', 'Temperature']].values[:-1, :]
     Xtest[:, -1] = np.squeeze(df2017[['Day Number']].values[1:])
 
-    ytest = np.zeros(df2017.shape[0] - 1, dtype=int)
-    ytest[:] = np.squeeze(df2017[['CO AQI']].values[1:])
+    ytest = np.zeros(df2017.shape[0] - 1, dtype=float)
+    ytest[:] = np.squeeze(df2017[['CO']].values[1:])
 
     plot_correlation(df2017)
 
@@ -254,43 +254,52 @@ def plot_correlation(df: pd.DataFrame) -> None:
     from sklearn.linear_model import LinearRegression
     from sklearn.decomposition import PCA
 
-    X = np.vstack((df['CO AQI'].values[:-1], df['Wind Speed'].values[:-1])).T
-    y = np.array(df['CO AQI'].values[1:])
+    X = np.vstack((df['CO'].values[:-1], df['Wind Direction'].values[:-1])).T
+    y = np.array(df['CO'].values[1:])
 
-    # pca = PCA(n_components=1)
-    # X_pca = pca.fit_transform(X)
+    # plt.subplot(1, 2, 1)
+    # ws = df['Wind Speed'].values
+    # plt.plot(range(ws.shape[0]), ws)
 
-    # regress = LinearRegression().fit(X_pca, y)
-    # y_predicted = regress.predict(X_pca)
-
-    # plt.scatter(X_pca, y)
-    # plt.plot(X_pca, y_predicted, 'r')
-
-    # plt.xlabel('Reduced CO AQI and Wind Speed')
-    # plt.ylabel('Carbon Monoxide AQI')
-
-    # plt.title('PCA on CO AQI Predictions')
+    # plt.subplot(1, 2, 2)
+    # co = df['CO AQI'].values
+    # plt.plot(range(co.shape[0]), co)
     # plt.show()
 
-    # regress = LinearRegression().fit(X, y)
-    # y_predicted = regress.predict(X)
+    pca = PCA(n_components=1)
+    X_pca = pca.fit_transform(X)
 
-    fig = plt.figure()
-    ax = fig.add_subplot(111, projection='3d')
+    regress = LinearRegression().fit(X_pca, y)
+    y_predicted = regress.predict(X_pca)
 
-    ax.scatter(
-        df['CO AQI'].values[:-1],
-        df['Wind Speed'].values[:-1],
-        df['CO AQI'].values[1:]
-    )
+    plt.scatter(X_pca, y)
+    plt.plot(X_pca, y_predicted, 'r')
 
-    # ax.plot(X[:, 0], X[:, 1], y_predicted, '.', color='r')
+    plt.xlabel('Reduced CO AQI and Wind Speed')
+    plt.ylabel('Carbon Monoxide AQI')
 
-    ax.set_xlabel('Old AQI')
-    ax.set_ylabel('Wind Speed')
-    ax.set_zlabel('New AQI')
-
+    plt.title('PCA on CO AQI Predictions')
     plt.show()
+
+    regress = LinearRegression().fit(X, y)
+    y_predicted = regress.predict(X)
+
+    # fig = plt.figure()
+    # ax = fig.add_subplot(111, projection='3d')
+
+    # ax.scatter(
+    #     df['CO'].values[:-1],
+    #     df['Wind Speed'].values[:-1],
+    #     df['CO'].values[1:]
+    # )
+
+    # # ax.plot(X[:, 0], X[:, 1], y_predicted, '.', color='r')
+
+    # ax.set_xlabel('Old AQI')
+    # ax.set_ylabel('Wind Speed')
+    # ax.set_zlabel('New AQI')
+
+    # plt.show()
 
 
 
