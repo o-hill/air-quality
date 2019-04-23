@@ -226,7 +226,7 @@ def build_network_data():
         print(row, df.shape[0] - 1, row + df.shape[0] - 1)
         X[row : row + df.shape[0] - 1, :-1] = df[['Day Number', 'CO', 'CO AQI', 'Wind Speed', 'Wind Direction', 'Temperature']].values[:-1, :]
         X[row : row + df.shape[0] - 1, -1] = np.squeeze(df[['Day Number']].values[1:])
-        y[row : row + df.shape[0] - 1] = np.squeeze(df[['CO']].values[1:])
+        y[row : row + df.shape[0] - 1] = np.squeeze(df[['CO AQI']].values[1:])
 
         row += df.shape[0] - 1
 
@@ -235,11 +235,33 @@ def build_network_data():
     Xtest[:, -1] = np.squeeze(df2017[['Day Number']].values[1:])
 
     ytest = np.zeros(df2017.shape[0] - 1, dtype=float)
-    ytest[:] = np.squeeze(df2017[['CO']].values[1:])
+    ytest[:] = np.squeeze(df2017[['CO AQI']].values[1:])
 
-    plot_correlation(df2017)
+    # plot_correlation(df2017)
 
     return X, Xtest, y, ytest
+
+
+def wind_dist_data():
+
+    df2015 = build_df(*get_dfs(2015))
+    df2016 = build_df(*get_dfs(2016))
+    df2017 = build_df(*get_dfs(2017))
+    df2018 = build_df(*get_dfs(2018))
+
+    n_rows = df2015.shape[0] + df2016.shape[0] + df2017.shape[0] + df2018.shape[0]
+    X = np.zeros((n_rows, 7), dtype=float)
+
+    row = 0
+    for df in [df2015, df2016, df2017, df2018]:
+        X[row : row + df.shape[0] - 1, :-1] = df[['Day Number', 'CO', 'CO AQI', 'Wind Speed', 'Wind Direction', 'Temperature']].values[:-1, :]
+        X[row : row + df.shape[0] - 1, -1] = np.squeeze(df[['Day Number']].values[1:])
+
+        row += df.shape[0]
+
+    return X
+
+
 
 
 def plot_correlation(df: pd.DataFrame) -> None:
